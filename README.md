@@ -1,17 +1,15 @@
-## My Project
+# traffic-mirroring-pkt-capture-s3
 
-TODO: Fill this README out!
+This Terraform code is the companion to the blog post [here](https://www.comingsoon.lab).
 
-Be sure to:
+## Prerequisites
 
-* Change the title in this README
-* Edit your repository description on GitHub
+To deploy this code, you will need a `terraform-deployment-role` in each of the accounts you plan to deploy to (both hub and spokes). The role will require sufficient permissions that includes access to create IAM roles, S3 bucket, SNS topics, KMS keys, Lambda, EC2, VPC, ELB, CloudWatch logs to deploy the infrastructure.
 
-## Security
+## Getting Started
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+To get started, update the `terraform.tfvars` file with your variables, then deploy `terraform` on the root directory via the deployment mechanism of your choice.
 
-## License
+### Warning to Windows users
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+Git may change line endings for files in this repository. This can prevent scripts from executing correctly on the EC2 instances. To prevent this, you can run `git config core.autocrlf false` or change the line endings of the `.sh` amd `.tpl` files manually.
