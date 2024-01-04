@@ -1,6 +1,6 @@
 # traffic-mirroring-pkt-capture-s3
 
-This Terraform code is the companion to the blog post [here](https://www.comingsoon.lab).
+This Terraform code is the companion to the blog post [here](https://aws.amazon.com/blogs/networking-and-content-delivery/capture-packets-with-amazon-vpc-traffic-mirroring-and-mountpoint-for-amazon-s3/).
 
 ## Prerequisites
 
