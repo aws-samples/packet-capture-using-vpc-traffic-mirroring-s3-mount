@@ -1,9 +1,9 @@
 region                    = "us-west-2"
 s3_bucket_name            = "tm-packet-captures-s3"
-sns_notify_email          = "sundarsm@amazon.com"
-hub_account_id            = "076850539050"
-spoke_account_1_id        = "789614100234"
-spoke_account_2_id        = "953008266987"
+sns_notify_email          = "developer@test.lab"
+hub_account_id            = "111111111111"
+spoke_account_1_id        = "222222222222"
+spoke_account_2_id        = "333333333333"
 allowed_principals        = ["*"]
 terraform_deployment_role = "terraform-deployment-role"
 enable_manual_acceptance  = false
